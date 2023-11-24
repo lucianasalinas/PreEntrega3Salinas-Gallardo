@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src=".//js/index.js"></script>
+  <script defer src=".//js/doc.js"></script>
+  <title>TRACKER | Presupuesto Mensual</title>
+</head>
+
+<body>
+  <header>
+    <h1>TRACKER</h1>
+    <h2>Gestioná tu dinero, gestioná tu vida.</h2>
+
+    <div>
+      <label for="mes">Mes</label>
+      <select id="mes">
+        <option value="enero">enero</option>
+        <option value="febrero">febrero</option>
+        <option value="marzo">marzo</option>
+        <option value="abril">abril</option>
+        <option value="mayo">mayo</option>
+        <option value="junio">junio</option>
+        <option value="julio">julio</option>
+        <option value="agosto">agosto</option>
+        <option value="septiembre">septiembre</option>
+        <option value="octubre">octubre</option>
+        <option value="noviembre">noviembre</option>
+        <option value="diciembre">diciembre</option>
+      </select>
+      <!-- Default Button -->
+      <a class="button" href="#">Ver Mes</a>
+    </div>
+  </header>
+  <main>
+    <h3>Tu Balance Actual</h3>
+    <p>$30.000</p>
+
+    <!-- INGRESOS -->
+    <table>
+      <thead>
+        <tr>
+          <th>Fuente de Ingresos</th>
+          <th>Cantidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Oficina</td>
+          <td>$150.000</td>
+        </tr>
+        <tr>
+          <td>Emprendimiento</td>
+          <td>$40.000</td>
+        </tr>
+        <tr class="total">
+          <td>TOTAL:</td>
+          <td>$190.000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- GASTOS -->
+    <table>
+      <thead>
+        <tr>
+          <th>Gastos Mensuales</th>
+          <th>Cantidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alquiler</td>
+          <td>$70.000</td>
+        </tr>
+        <tr>
+          <td>Comida</td>
+          <td>$30.000</td>
+        </tr>
+        <tr>
+          <td>Agua</td>
+          <td>$7.000</td>
+        </tr>
+        <tr>
+          <td>Gas</td>
+          <td>$7.000</td>
+        </tr>
+        <tr>
+          <td>Electricidad</td>
+          <td>$7.000</td>
+        </tr>
+        <tr>
+          <td>Ahorros</td>
+          <td>$30.000</td>
+        </tr>
+        <tr>
+          <td>Misc.</td>
+          <td>$9.000</td>
+        </tr>
+        <tr class="total">
+          <td>TOTAL:</td>
+          <td>$160.000</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
